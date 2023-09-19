@@ -1,4 +1,4 @@
-const arr = [1, 5, 4, 10, 0,];
+const arr = [1, 5, 4, 10, 0];
 const even = arr.filter (el => el > 10);
 
 console.log(arr);
