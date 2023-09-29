@@ -79,21 +79,8 @@ function filterPositive(array) {
 
 console.log(filterPositive);
 
-let arrSum = [
-    [1, 2],
-    [3, 4],
-    [5, 6],
-];
-for (let arrInn of arrSum) {
-for (let element of arrInn) {
-    console.log(element);
+let arr = [9, 5, 8, 1, 3];
+for (let i = 1; i<arr.length; i+1); {
+    result += arr[i] + arr[i - 1];
 }
-}
-
-const sum = (a, b, ...rest) => {
-    let result = a + b;
-    console.log(result);
-    console.log(rest);
-}
-
-sum(...arrSum);
+console.log(result);
